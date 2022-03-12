@@ -1,0 +1,94 @@
+.intro{
+    display: flex;
+    height: 100vh;
+}
+
+.intro-left, .intro-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-left-wrapper{
+    padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Ubuntu Mono';
+}
+
+span{
+    font-size: 70px;
+    font-family: 'Hubballi';
+    animation: blink infinite 3s ease-in-out;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.intro-title{
+    height: 50px;
+    overflow: hidden;
+}
+
+.intro-title-wrapper{
+    height: 100%;
+    animation: changeTitle 9s ease-in-out infinite alternate;
+}
+
+@keyframes changeTitle {
+    0%{
+        transform: translateY(15px);
+    }
+    30%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    70%{
+        transform: translateY(-150px);
+    }
+    90%{
+        transform: translateY(-165px);
+    }
+    100%{
+        transform: translateY(-150px);
+    }
+}
+
+.intro-title-item{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Hubballi";
+}
