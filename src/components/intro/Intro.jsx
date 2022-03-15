@@ -29,6 +29,7 @@ function Intro() {
                 <div className="intro-description">
                     Long story short - Go fuck yourself, you little cunt!    
                 </div>
+                <p className='intro-scroll'>SCROLLDOWN</p>
             </div>
         </div>
         <div className="intro-right">
