@@ -101,16 +101,17 @@ span{
     position: fixed;
     font-size: 1.4rem;
     bottom: 40px;
-    left: 40px;
+    right: 40px;
     line-height: 1;
     writing-mode: vertical-rl;
+    z-index: 1111;
 }
 
 .intro-scroll::after {
     content: "";
     width: 2px;
     height: 44px;
-    background: rgb(102, 88, 88);
+    background: rgb(66, 55, 55);
     position: absolute;
     left: -6px;
     right: 0;
