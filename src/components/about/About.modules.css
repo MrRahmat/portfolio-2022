@@ -36,3 +36,33 @@ img{
     height: 100%;
     object-fit: cover;
 }
+
+.a-h1{
+    margin-bottom: 28px;
+    font-size: 60px;
+}
+
+.about-item{
+    margin-top: 30px;
+    width: 80%;
+}
+
+.about-item-title{
+    background: linear-gradient(to left, white 87%, black 13%) right;
+    background-size: 200%;
+    transition: background 2s ease-out;
+}
+
+.about-item-title:hover {
+    background-position: left;
+}
+
+.about-item-title::after{
+    content: '';
+    display: block;
+    width: 20%;
+    margin: 10px 0;
+    height: 2px;
+    background-color: #5A3B26;
+
+}
